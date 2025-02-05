@@ -1,3 +1,13 @@
+###################################################################################################################################################################
+#
+# Author: Kali Goddess (Cyborg)
+# Data: 05/02/2025
+# Title: Scan Link Excerpt
+# Detail: This program uses a host link, which you enter in the filter, to list all the links according to what you have entered.
+# Objective: Look for a very specific vulnerability in the host, preferably one in which you already know or need to look for the vulnerability in order to act.
+#
+###################################################################################################################################################################
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
